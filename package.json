@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "This is workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "start, test"
+  },
+  "author": "Dipika",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0"
+  }
+}

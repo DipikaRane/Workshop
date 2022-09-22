@@ -4,7 +4,8 @@
   "description": "This is workshop",
   "main": "index.js",
   "scripts": {
-    "test": "start, test"
+    "start":"node app.js",
+    "dev":"nodemon app.js"
   },
   "author": "Dipika",
   "license": "ISC",

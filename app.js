@@ -27,7 +27,7 @@ app.get('/cake',(req,res)=>{
 })
 //connect with mongodb
 MongoClient.connect(mongoUrl,(err,client)=>{
-    if(err) console.log("Error while connection");
+    if(err) console.log("Error while Connection");
     db=client.db('cakeData');
     app.listen(port,()=>{
         console.log(`listening on port ${port}`)
